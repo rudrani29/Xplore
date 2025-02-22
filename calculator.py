@@ -5,7 +5,10 @@ def subtract(a,b):
 def multiply(a,b):
     return a*b 
 def division(a,b):
-    return a/b
+    if b == 0:
+          return "Error : Division by zero"
+    else:
+        return a/b
 
 #Calculator:
 print("Select operation:")
